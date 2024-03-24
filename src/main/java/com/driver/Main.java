@@ -21,9 +21,9 @@ public class Main {
 
   public static void main(String[] args){
      Product p = new Product();
-    System.out.println( p.product(1,2));
-      System.out.println (p.product(1,2,3));
-     System.out.println(p.product(1.2,2.4));
+    System.out.println( "Product of two numbers 1 and 2 is "+p.product(1,2));
+      System.out.println ( "Product of three numbers 1 , 2 and 3 is " +p.product(1,2,3));
+     System.out.println("Product of two double numbers 1.2 and 2.4 is " +p.product(1.2,2.4));
 
   }
 }
